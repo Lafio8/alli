@@ -1,18 +1,18 @@
 
 let attempts = 0;
-const solution = 'Escape room';
+const solution = 'Escaperoom';
 const hints = [
-    '_ _ _ _ _ _  _ _ _ _ ', // 0 lettere
-    '_ _ c _ _ _  _ _ _ _ ', // 1 lettera
-    '_ _ c a _ _  _ _ _ _ ', // 2 lettere
-    '_ _ c a _ _  r _ _ _ ', // 3 lettere
-    '_ _ c a _ _  r _ o _ ', // 4 lettere
-    '_ s c a _ _  r _ o _ ', // 5 lettere
-    '_ s c a _ e  r _ o _ ', // 6 lettere
-    '_ s c a p e  r _ o _ ', // 7 lettere
-    'E s c a p e  r _ o _ ', // 8 lettere
-    'E s c a p e  r _ o m ', // 9 lettere
-    'E s c a p e  r o o m', // 10 lettere
+    '_ _ _ _ _ _ _ _ _ _ ', // 0 lettere
+    '_ _ c _ _ _ _ _ _ _ ', // 1 lettera
+    '_ _ c a _ _ _ _ _ _ ', // 2 lettere
+    '_ _ c a _ _ r _ _ _ ', // 3 lettere
+    '_ _ c a _ _ r _ o _ ', // 4 lettere
+    '_ s c a _ _ r _ o _ ', // 5 lettere
+    '_ s c a _ e r _ o _ ', // 6 lettere
+    '_ s c a p e r _ o _ ', // 7 lettere
+    'E s c a p e r _ o _ ', // 8 lettere
+    'E s c a p e r _ o m ', // 9 lettere
+    'E s c a p e r o o m', // 10 lettere
 	
 ];
 
