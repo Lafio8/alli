@@ -2,19 +2,18 @@
 let attempts = 0;
 const solution = 'ilvinobianco';
 const hints = [
-    '_ _ _ _ _ _ _ _ _ _ _ _', // 0 lettere
-    '_ _ v _ _ _ _ _ _ _ _ _', // 1 lettera
-    '_ _ v i _ _ _ _ _ _ _ _', // 2 lettere
-    '_ _ v i _ _ b _ _ _ _ _', // 3 lettere
-    '_ _ v i _ _ b _ _ _ _ o', // 4 lettere
-    '_ l v i _ _ b _ _ _ _ o', // 5 lettere
-    '_ l v i _ o b _ _ _ _ o', // 6 lettere
-    '_ l v i _ o b _ a _ _ o', // 7 lettere
-    'i l v i _ o b _ a _ _ o', // 8 lettere
-    'i l v i _ o b _ a n _ o', // 9 lettere
-    'i l v i _ o b _ a n c o', // 10 lettere
-	'i l v i n o b _ a n c o', // 11 lettere
-    'i l v i n o b i a n c o'  // 12 lettere (soluzione completa)
+    '_ _ _ _ _ _ _ _ _ _ ', // 0 lettere
+    '_ _ c _ _ _ _ _ _ _ ', // 1 lettera
+    '_ _ c a _ _ _ _ _ _ ', // 2 lettere
+    '_ _ c a _ _ r _ _ _ ', // 3 lettere
+    '_ _ c a _ _ r _ o _ ', // 4 lettere
+    '_ s c a _ _ r _ o _ ', // 5 lettere
+    '_ s c a _ e r _ o _ ', // 6 lettere
+    '_ s c a p e r _ o _ ', // 7 lettere
+    'e s c a p e r _ o _ ', // 8 lettere
+    'e s c a p e r _ o m ', // 9 lettere
+    'e s c a p e r o o m', // 10 lettere
+	
 ];
 
 function verificaRisposta() {
@@ -22,7 +21,7 @@ function verificaRisposta() {
     const result = document.getElementById('result');
     
     if (risposta === solution) {
-        result.innerHTML = `<p>Bravo BOF! Ti sei guadagnato un <a href="Regalo_Bof.pdf" target="_blank">regalo</a></p>`;
+        result.innerHTML = `<p>Brava Alli! Ti sei guadagnata un <a href="Regalo_Alli_esc.pdf" target="_blank">regalo</a></p>`;
     } else {
         if (attempts < hints.length - 2) {
             attempts++;
@@ -31,7 +30,7 @@ function verificaRisposta() {
         }
 		else{
 			attempts++;
-			result.innerHTML = `<p>Sei imbarazzante, era "${hints[attempts]}". Tieni il tuo <a href="Regalo_Bof.pdf" target="_blank">regalo</a></p>`;
+			result.innerHTML = `<p>Sei imbarazzante, era "${hints[attempts]}". Tieni il tuo <a href="Regalo_Alli_esc.pdf" target="_blank">regalo</a></p>`;
 		}
         
     }
