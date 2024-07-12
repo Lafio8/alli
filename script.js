@@ -1,6 +1,6 @@
 
 let attempts = 0;
-const solution = 'Escaperoom';
+const solution = 'escaperoom';
 const hints = [
     '_ _ _ _ _ _ _ _ _ _ ', // 0 lettere
     '_ _ c _ _ _ _ _ _ _ ', // 1 lettera
@@ -12,7 +12,7 @@ const hints = [
     '_ s c a p e r _ o _ ', // 7 lettere
     'E s c a p e r _ o _ ', // 8 lettere
     'E s c a p e r _ o m ', // 9 lettere
-    'E s c a p e r o o m', // 10 lettere
+    'E s c a p e r o o m ', // 10 lettere
 	
 ];
 
